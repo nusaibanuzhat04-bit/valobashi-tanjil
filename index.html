@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>For Tanjil 💖</title>
+<style>
+body{margin:0;background:#ffdde8;font-family:Arial;text-align:center}
+.card{background:white;border-radius:30px;margin:20px;padding:30px 20px}
+h1{color:#ff2e7e;font-size:32px}
+p{font-size:18px;line-height:1.7;color:#555}
+.btn{background:#ff2e7e;color:white;padding:15px 30px;border-radius:30px;border:none;font-size:18px;font-weight:bold;margin:10px}
+#ans{font-size:24px;color:#ff2e7e;font-weight:bold;margin-top:20px;display:none}
+</style>
+</head>
+<body>
+<br><div style="font-size:40px">💖 💕 💖</div>
+<div class="card">
+<img src="IMG_20260917_235135.jpg" style="width:220px;height:220px;border-radius:50%;object-fit:cover;border:5px solid #ff2e7e;">
+<p>Hey Tanjil,</p>
+<h1>I Have Something<br>To Tell You...</h1>
+<p>Ami tomake onekkkk valobashi.<br><br>Tomar sathe kotha bolle amar mon ta valo hoye jay. Tomake na dekhle din ta incomplete lage.</p>
+<p style="font-size:22px;color:#ff2e7e;font-weight:bold">Tanjil, will you be mine? 🥺💖</p>
+<button class="btn" onclick="yes()">YES! 💖</button>
+<button class="btn" id="noBtn" onclick="no()" style="background:#ccc">No 😢</button>
+<div id="ans">Yeeeyyy! 😍💍<br>Ami jantam tumi YES bolba!<br>Love you sooo much Tanjil 💖<br><br>- Nusaiba</div>
+</div>
+<script>
+function yes(){document.getElementById('ans').style.display='block';alert('Tanjil + Nusaiba = Forever 💖');}
+function no(){var b=document.getElementById('noBtn');b.innerText='Are you sure? 🥺';setTimeout(function(){b.innerText='Tumi parba na No bolte! 😜💖';b.style.background='#ff2e7e';b.style.color='white';},1000);}
+</script>
+</body>
+  </html>
